@@ -1,0 +1,32 @@
+@media (min-height: 800px) and (max-width: 1280px) {
+    .text::before {
+        top: -40px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .text {
+        right: 0;
+        height: 140px;
+
+    }
+
+    .text::after {
+        top: -85px;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 40px;
+    }
+}
+
+
+
+@media (max-height: 650px) and (max-width: 1024px) {
+    .App {
+        min-height: 800px;
+    }
+
+    .menu {
+        top: 715px
+    }
+}

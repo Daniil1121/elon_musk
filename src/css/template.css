@@ -1,0 +1,113 @@
+/* 1. обнуление CSS (START) */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/* 1. обнуление CSS (END) */
+
+
+
+/* 2. подключение шрифтов и стилей (START) */
+@font-face {
+  font-family: "MuseoSansCyrl";
+  src: url("./fonts/MuseoSansCyrl-100.woff") format('woff');
+  font-weight: normal;
+}
+@import url('./1920.css');
+@import url('./1640.css') (max-width: 1640px) and (max-height: 800px);
+@import url('./1280.css') (max-width: 1280px);
+@import url('./1024.css') (max-width: 1024px);
+@import url('./600.css') (max-width: 600px);
+@import url('./exceptions.css');
+/* 2. подключение шрифтов и стилей (END) */

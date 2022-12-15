@@ -1,0 +1,130 @@
+/* 2. HEADER (START) */
+.header {
+    height: 60px;
+}
+
+.logo {
+    width: 235px;
+    background-size: 195px;
+    right: 85px;
+}
+
+.menu {
+    width: 600px;
+    left: 50px;
+    font-size: 16px;
+}
+
+/* 2. HEADER (END) */
+
+
+
+
+/* 3. выгоды (START) */
+.benefit_container {
+    width: 280px;
+    left: 350px;
+    top: -230px;
+}
+
+.benefit_item {
+    width: 130px;
+    height: 130px;
+}
+
+.benefit_item .benefit_text {
+    font-size: 16px;
+}
+
+.benefit_item .benefit_text .benefit_number {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+/* 3. выгоды (END) */
+
+
+/* 4. кнопка (START) */
+
+.button {
+    left: -395px;
+    top: 85px;
+}
+
+/* 4. кнопка (END) */
+
+
+/* 5. Текст (START) */
+
+.text {
+    background: none;
+}
+
+.text::after {
+    content: 'ПУТЕШЕСТВИЕ';
+    position: absolute;
+    text-align: left;
+    height: 100px;
+    background-image: linear-gradient(to right, #ffffff, rgb(255, 69, 12));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 50px;
+    font-weight: 700;
+    top: -85px;
+    left: 45px;
+    font-family: sans-serif;
+}
+
+.text::before {
+    content: 'на красную планету';
+    position: absolute;
+    text-align: left;
+    height: 100px;
+    background-image: linear-gradient(to right, rgb(255, 165, 138), rgb(255, 69, 12));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    top: -40px;
+    left: 248px;
+    width: 200px;
+}
+
+
+@media (min-height: 800px) {
+    .text::before {
+        top: -40px;
+        left: 30vw;
+    }
+
+    .text::after {
+        top: -85px;
+        left: 20vw;
+        font-size: 40px;
+    }
+}
+
+/* 5. Текст (END) */
+
+
+
+/* 6. линия к кнопке (START) */
+.line_container {
+    top: 60px;
+}
+
+.horizontal_line {
+    width: 160px;
+}
+
+.inclined_line {
+    width: 200px;
+    right: 135px;
+    top: -70px;
+    transform: rotate(45deg);
+}
+
+/* 6. линия к кнопке (END) */

@@ -1,0 +1,95 @@
+/* 1. глобальные стили (START) */
+.App {
+    background-size: 1640px 800px;
+}
+
+/* 1. глобальные стили (END) */
+
+
+
+/* 2. HEADER (START) */
+.header {
+    height: 80px;
+}
+
+.logo {
+    width: 265px;
+    background-size: 245px;
+    right: 60px;
+    
+}
+.menu {
+    width: 700px;
+    left: 100px;
+}
+
+/* 2. HEADER (END) */
+
+
+
+
+/* 3. выгоды (START) */
+.benefit_container {
+    width: 320px;
+    left: 400px;
+    top: -250px;
+}
+
+.benefit_item {
+    width: 150px;
+    height: 150px;
+}
+
+.benefit_item .benefit_text {
+    font-size: 20px;
+}
+
+.benefit_item .benefit_text .benefit_number {
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+/* 3. выгоды (END) */
+
+
+/* 4. кнопка (START) */
+
+.button {
+    left: -445px;
+    top: 175px;
+}
+
+/* 4. кнопка (END) */
+
+
+/* 5. Текст (START) */
+
+.text {
+    width: 385px;
+    right: 355px;
+    top: -69px;
+}
+
+/* 5. Текст (END) */
+
+
+
+
+
+
+/* 6. линия к кнопке (START) */
+.line_container {
+    top: 60px;
+}
+
+.horizontal_line {
+    width: 260px;
+}
+
+.inclined_line {
+    width: 80px;
+    right: 259px;
+    top: -18px;
+}
+
+/* 6. линия к кнопке (END) */
