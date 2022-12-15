@@ -1,93 +1,7 @@
-/* .App {
-    overflow: visible;
-    width: auto;
-    height: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-size: contain;
-} */
 
 .App {
     overflow-y: scroll;
-    /* min-height: 800px; */
 }
-
-/* 2. HEADER (START) */
-.header {
-    height: 60px;
-}
-
-.logo {
-    right: 0;
-}
-
-
-
-.menu {
-    width: 100vw;
-    position: absolute;
-    top: calc(100vh - 80px);
-    left: 0;
-    height: 80px;
-    width: 100vw;
-    flex-wrap: wrap;
-    border-top: 1px solid;
-    border-color: rgba(152, 147, 147, 0.2);
-    border-style: solid;
-    background-color: rgba(21, 10, 1, 0.2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-.menu_item {
-    width: 25%;
-    padding: 0;
-    margin: 0 20px;
-}
-
-/* 2. HEADER (END) */
-
-
-
-
-/* 3. выгоды (START) */
-.benefit_container {
-    width: 280px;
-    left: 0px;
-    top: -230px;
-}
-
-.benefit_item {
-    width: 130px;
-    height: 130px;
-}
-
-.benefit_item .benefit_text {
-    font-size: 16px;
-}
-
-.benefit_item .benefit_text .benefit_number {
-    margin-top: 15px;
-    font-size: 30px;
-}
-
-/* 3. выгоды (END) */
-
-
-/* 4. кнопка (START) */
-
-.button {
-    left: 0;
-    top: 285px;
-}
-
-/* 4. кнопка (END) */
-
 
 /* 5. Текст (START) */
 
@@ -106,12 +20,3 @@
 
 
 /* 5. Текст (END) */
-
-
-
-/* 6. линия к кнопке (START) */
-.line_container {
-    display: none;
-}
-
-/* 6. линия к кнопке (END) */
